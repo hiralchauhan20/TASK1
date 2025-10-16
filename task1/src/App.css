@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); /* Background */
+.signup-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./background.png") no-repeat center center/cover;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Main box */
+.signup-box {
+  display: flex;
+  height: 80%;
+  width: 56%;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  background: rgb(8, 75, 62);
+  position: relative;
+}
+
+/* Left section */
+.left-section {
+  background: rgb(8, 75, 62);
+  color: white;
+  width: 35%;
+  padding: 5px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo img {
+  display: block;
+  margin-top: 5px;
+}
+
+.left-text {
+  color: rgb(249, 226, 186);
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  max-width: 350px;
+  font-family: "Poppins", sans-serif;
+}
+/* Right section */
+.right-section {
+  width: 50%;
+  padding: 50px 40px;
+  background-color: #fff;
+}
+
+.right-section h1 {
+  /* font-size: 26px; */
+  font-weight: 600;
+  color: rgb(35, 35, 35);
+  line-height: 1.2;
+  margin-top: 4px;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup-form label {
+  font-size: 18px;
+  margin-top: 30px;
+  color: #070707;
+}
+
+.signup-form input {
+  border: none;
+  border-bottom: 1px solid #070707;
+  font-size: 15px;
+  outline: none;
+  margin-right: 90px;
+  transition: border-color 0.3s;
+}
+
+/* Button */
+.signup-form button {
+  background: rgb(0, 195, 139);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  width: 450px;
+  height: 76px;
+  padding: 10px 0;
+  margin-right: 90px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Terms */
+.terms {
+  font-size: 12px;
+  color: rgb(189, 189, 189);
+  margin-top: 70px;
+  line-height: 1.6;
+}
+
+.terms a {
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+/* Login */
+
+#login {
+  color: rgb(25, 176, 126);
+  text-decoration-line: underline;
+  cursor: pointer;
+}
